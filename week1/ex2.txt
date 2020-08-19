@@ -1,0 +1,68 @@
+    1  whoami
+    2  hostname
+    3  -help
+    4  -h
+    5  help
+    6  sleep 3
+    7  man whoami
+    8  man man
+    9  less
+   10  head
+   11  ls>list.txt
+   12  pwd
+   13  ls
+   14  rm list
+   15  rm list.txt
+   16  touch sd
+   17  cat sosiska
+   18  cat> sosiska
+   19  bg
+   20  fg
+   21  Is /usr/bin 
+   22  Ls/user/bin
+   23  /usr/bin
+   24  /Computer/bin
+   25  /usr/bin
+   26  ls /usr/bin
+   27  ls/usr/bin | sort -r> ~/week1/ex1.txt
+   28  /usr/bin | grep gcc  > ~/week1/ex1.txt
+   29  /usr/bin | grep gcc | sort -r > ~/week1/ex1/txt
+   30  usr/bin | grep gcc | sort -r > ~/week1/ex1.txt
+   31  ls /usr/bin | grep gcc | sort -r > ~/week1/ex1.txt
+   32  man man > ~/week1/ex1.txt
+   33  ls /usr/bin > ~/week1/ex1.txt
+   34  ls /usr/bin | grep gcc> ~/week1/ex1.txt
+   35  ls | sort -r | tail -n 3
+   36  ls /usr/bin | find  /usr/bin «*.txt» |sort-r >/week1/ex1.txt
+   37  ./ex1.txt
+   38  s/usr/bin | grep gcc | sort -r> ~/week1/ex1.txt
+   39  ls/usr/bin | grep gcc | sort -r> ~/week1/ex1.txt
+   40  ls /usr/bin | grep gcc | sort -r> ~/week1/ex1.txt
+   41  history > ex2.txt
+   42  ls /usr/bin | grep gcc | sort -r > ex1.txt
+   43  ls /usr/bin | grep gcc | sort -r > ex3.txt
+   44  jobs
+   45  sleep 5
+   46  bg sleep 5
+   47  slee5 5 &
+   48  sleep
+   49  sleep 50&
+   50  sleep 70&
+   51  sleep 80&
+   52  jobs
+   53  fg %1
+   54  jobs
+   55  bg
+   56  exit
+   57  sudo apt install gcc
+   58  tail -50 test.txt
+   59  $ head -50 test.txt
+   60  pwd
+   61  sleep 100&
+   62  sleep 50
+   63  sleep 80
+   64  sleep 50&
+   65  sleep 50&
+   66  sleep 50&
+   67  jobs
+   68  history > ~/week1/ex2.txt
