@@ -1,33 +1,42 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 int main()
 {
-	char s[1000];
-	while(1){
-		fgets(s,1000,stdin);
-		char *args[1000];		
-		int t=0,i=0,j=0;
-		for(i=0;i<1000;i++){
+	char temp[200];
+	while(1==1)
+	{
+		fgets(temp,200,stdin);
+		char *args[200];
+		int i = 0;
+		int j = 0;
+		int t=0;
+		for(i=0;i<200;i++)
+		{
 			args[i]=NULL;
 		}
 		i=0;
-		args[0]=(char*)malloc(1000);	
-		while(1){
-			if(s[i]!=' ' && s[i]!='\n' && s[i]!='\0'){
-				args[t][j]=s[i];
+		args[0]=(char*)malloc(200);	
+		while(1==1)
+		{
+			if(temp[i]!=' ' && temp[i]!='\n' && temp[i]!='\0')
+			{
+				args[t][j]=temp[i];
 				i++,j++;
 			}
-			else if(s[i]==' '){
-				i++,j=0,t++;
-				args[t]=(char*)malloc(1000);
+			else if(temp[i]==' ')
+			{
+				j = 0;
+				i++,t++;
+				args[t]=(char*)malloc(200);
 			}
-			else{
+			else
+			{
 				break;
 			}
 		}
 		int pid=fork();
-		if(pid==0){
+		if(pid==0)
+		{
 			execvp(args[0],args,NULL);
 		}
 	}
