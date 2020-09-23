@@ -58,7 +58,7 @@ int main()
      printf("\t%d",tat[i]);
      printf("\t%d\n",ct[i]);
     }
-    printf("\n\nAverage Waiting Time: %f", (double)awt/n);
+    printf("Average Waiting Time: %f", (double)awt/n);
     printf("\nAverage Turnaround Time: %f", (double)atat/n);
  
     return 0;
