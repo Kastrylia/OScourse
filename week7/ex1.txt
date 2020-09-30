@@ -1,0 +1,3 @@
+   text	   data	    bss	    dec	    hex	filename
+   1864	    616	      8	   2488	    9b8	program.out
+
