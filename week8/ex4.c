@@ -17,8 +17,8 @@ int main()
 		    printf("%ld KB\n", t.ru_maxrss);
 		    
 		}
-		else return 0;
+		else return 1;
 		sleep(1);
 	}
-	exit(EXIT_SUCCESS);
+	return 0;
 }
