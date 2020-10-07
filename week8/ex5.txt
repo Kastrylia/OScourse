@@ -1,0 +1,2 @@
+Physical adress is adress that points to physical memory.Virtual adress is adress viewed by executing process.It can be equal to real(physical address).In case if it 
+differs then virtual address forced by MMU to point into physical adress
