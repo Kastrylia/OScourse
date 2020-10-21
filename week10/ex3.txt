@@ -1,0 +1,8 @@
+-rw-r--r-- 1 ruslan ruslan 0 Oct 21 21:57 _ex3.txt
+-rwxr--r-- 1 ruslan ruslan 0 Oct 21 21:57 _ex3.txt
+-rwxr--rwx 1 ruslan ruslan 0 Oct 21 21:57 _ex3.txt
+-rwxrwxrwx 1 ruslan ruslan 0 Oct 21 21:57 _ex3.txt
+ 
+660(110 110 000)	rw-rw----  only owner and group are able to read and write
+775(111 111 101)	rwxrwxr-x  all can read and execute except group and owner, they can do anything	
+777(111 111 111)	rwxrwxrwx  everyone are able to read write and execute
