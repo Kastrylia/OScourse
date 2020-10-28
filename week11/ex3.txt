@@ -1,0 +1,5 @@
+First prints "Hello" "Hello"
+Second prints "Hello" 
+
+In first hello goes to buffer and then forks.Then 2 processes prints their buffers
+In second \n frees the buffer and fork doesnt copy it.So there are only 1 hello printed
